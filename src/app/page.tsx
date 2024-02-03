@@ -18,7 +18,7 @@ export default function Home() {
             <p className="text-zinc-500 text-sm md:text-base font-medium">Desenvolvedor Full-Stack, focado em Java, C# e Next.js</p>
           </div>
         </div>
-        <div className="mt-6 flex gap-12 font-medium text-sm md:text-base">
+        <div className="mt-6 flex gap-6 md:gap-12 font-medium text-sm md:text-base">
           <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.linkedin.com/in/dynylson-j%C3%BAnior-214298243/">
             <FaLinkedin size={24} />
             Linkedin
