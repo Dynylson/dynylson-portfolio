@@ -1,4 +1,5 @@
 import CardProject from "@/components/card-project";
+import CardTool from "@/components/card-tool";
 import Header from "@/components/header";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,7 +7,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="max-w-[1120px] mx-auto mt-5 px-5">
+    <main className="max-w-[1120px] mx-auto mt-5 px-5 mb-4">
       <Header />
 
       <div className="mt-12 md:mt-24">
@@ -18,15 +19,15 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-6 flex gap-12 font-medium text-sm md:text-base">
-          <Link className="flex items-center gap-2 hover:text-green transition-default" href="">
+          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.linkedin.com/in/dynylson-j%C3%BAnior-214298243/">
             <FaLinkedin size={24} />
             Linkedin
           </Link>
-          <Link className="flex items-center gap-2 hover:text-green transition-default" href="">
+          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://github.com/Dynylson">
             <FaGithub size={24} />
             Github
           </Link>
-          <Link className="flex items-center gap-2 hover:text-green transition-default" href="">
+          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.instagram.com/dynylsonj/">
             <FaInstagram size={24} />
             Instagram
           </Link>
@@ -55,7 +56,18 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 className="text-green font-bold text-2xl">🔥 Tecnologias</h2>
+          <h2 className="text-green font-bold text-xl md:text-2xl">🔥 Tecnologias</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-3 md:mt-6">
+            <CardTool img="/svg/react.svg" width={50} height={50} />
+            <CardTool img="/svg/typescript.svg" width={50} height={50} />
+            <CardTool img="/svg/java.svg" width={50} height={50} />
+            <CardTool img="/svg/angular.svg" width={50} height={50} />
+            <CardTool img="/svg/postgres.svg" width={50} height={50} />
+            <CardTool img="/svg/csharp.svg" width={50} height={50} />
+            <CardTool img="/svg/dotnet.svg" width={50} height={50} />
+            <CardTool img="/svg/linux.svg" width={50} height={50} />
+            <CardTool img="/svg/spring.svg" width={50} height={50} />
+          </div>
         </div>
       </div>
     </main>
