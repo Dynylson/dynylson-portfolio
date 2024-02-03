@@ -17,7 +17,9 @@
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .transition-default {
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
   }
 }
