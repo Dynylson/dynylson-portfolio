@@ -41,7 +41,7 @@ export default function Home() {
         <div>
           <div className="flex items-center justify-between mb-3 md:mb-6">
             <h2 className="text-green font-bold text-xl md:text-2xl">🚀 Projetos</h2>
-            <Link className="font-medium text-sm md:text-base hover:text-green transition-default" href="">
+            <Link className="font-medium text-sm md:text-base hover:text-green transition-default" href="/projects">
               Ver mais
             </Link>
           </div>
