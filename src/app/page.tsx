@@ -1,6 +1,5 @@
 import CardProject from "@/components/card-project";
 import CardTool from "@/components/card-tool";
-import Header from "@/components/header";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
@@ -8,8 +7,6 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 export default function Home() {
   return (
     <main className="max-w-[1120px] mx-auto mt-5 px-5 mb-4">
-      <Header />
-
       <div className="mt-12 md:mt-24">
         <div className="flex items-center gap-6">
           <Image className="rounded-xl h-[85px] w-[120px] md:h-[150px] md:w-[150px]" src="/me.jpeg" width={140} height={140} alt="" />

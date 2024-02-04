@@ -4,6 +4,7 @@ import { GeistMono } from 'geist/font/mono';
 
 import '../css/globals.css'
 import { ThemeProvider } from "@/components/theme-provider";
+import Header from "@/components/header";
 
 export const metadata: Metadata = {
   title: "Dynylson Júnior",
@@ -24,6 +25,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+        <Header />
         {children}
         </ThemeProvider>
       </body>
