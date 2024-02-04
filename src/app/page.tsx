@@ -55,15 +55,15 @@ export default function Home() {
         <div>
           <h2 className="text-green font-bold text-xl md:text-2xl">🔥 Tecnologias</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-3 md:mt-6">
-            <CardTool img="/svg/react.svg" width={50} height={50} />
-            <CardTool img="/svg/typescript.svg" width={50} height={50} />
-            <CardTool img="/svg/java.svg" width={50} height={50} />
-            <CardTool img="/svg/angular.svg" width={50} height={50} />
-            <CardTool img="/svg/postgres.svg" width={50} height={50} />
-            <CardTool img="/svg/csharp.svg" width={50} height={50} />
-            <CardTool img="/svg/dotnet.svg" width={50} height={50} />
-            <CardTool img="/svg/linux.svg" width={50} height={50} />
-            <CardTool img="/svg/spring.svg" width={50} height={50} />
+            <CardTool label="React" img="/svg/react.svg" width={50} height={50} />
+            <CardTool label="TypeScript" img="/svg/typescript.svg" width={50} height={50} />
+            <CardTool label="Java" img="/svg/java.svg" width={50} height={50} />
+            <CardTool label="Angular" img="/svg/angular.svg" width={50} height={50} />
+            <CardTool label="PostgreSQL" img="/svg/postgres.svg" width={50} height={50} />
+            <CardTool label="C#" img="/svg/csharp.svg" width={50} height={50} />
+            <CardTool label=".NET" img="/svg/dotnet.svg" width={50} height={50} />
+            <CardTool label="Linux" img="/svg/linux.svg" width={50} height={50} />
+            <CardTool label="Spring" img="/svg/spring.svg" width={50} height={50} />
           </div>
         </div>
       </div>
