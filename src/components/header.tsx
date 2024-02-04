@@ -17,7 +17,7 @@ const Header = () => {
             </Link>
             <div>
                 <nav className="flex items-center gap-4 md:gap-8 text-zinc-700 font-medium text-base md:text-lg">
-                    <Link className={`transition-default hover:text-green ${pathname === '/about' ? 'text-green' : ''}`} href="/about">Sobre</Link>
+                    <Link className={`transition-default hover:text-green ${pathname === '/' ? 'text-green' : ''}`} href="/">Início</Link>
                     <Link className={`transition-default hover:text-green ${pathname === '/projects' ? 'text-green' : ''}`} href="/projects">Projetos</Link>
                     <Link className={`transition-default hover:text-green ${pathname === '/contact' ? 'text-green' : ''}`} href="/contact">Contato</Link>
                 </nav>
