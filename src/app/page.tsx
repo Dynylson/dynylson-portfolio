@@ -16,15 +16,15 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-6 flex gap-6 md:gap-12 font-medium text-sm md:text-base">
-          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.linkedin.com/in/dynylson-j%C3%BAnior-214298243/">
+          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.linkedin.com/in/dynylson-j%C3%BAnior-214298243/" target="_blank">
             <FaLinkedin size={24} />
             Linkedin
           </Link>
-          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://github.com/Dynylson">
+          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://github.com/Dynylson" target="_blank">
             <FaGithub size={24} />
             Github
           </Link>
-          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.instagram.com/dynylsonj/">
+          <Link className="flex items-center gap-2 hover:text-green transition-default" href="https://www.instagram.com/dynylsonj/" target="_blank">
             <FaInstagram size={24} />
             Instagram
           </Link>
