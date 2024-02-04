@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="max-w-[1120px] mx-auto mt-5 px-5 mb-4">
       <div className="mt-12 md:mt-24">
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-3 md:gap-6">
           <Image className="rounded-xl h-[85px] w-[120px] md:h-[150px] md:w-[150px]" src="/me.jpeg" width={140} height={140} alt="" />
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-1 md:gap-2">
             <h2 className="font-bold text-xl md:text-2xl">Dynylson Júnior</h2>
             <p className="text-zinc-500 text-sm md:text-base font-medium">Desenvolvedor Full-Stack, focado em Java, C# e Next.js</p>
           </div>
