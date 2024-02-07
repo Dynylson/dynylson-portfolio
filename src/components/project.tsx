@@ -16,16 +16,16 @@ type ProjectProps = {
     description: string;
     stack: string[];
     repository: string;
-    website?: string;
+    website: string;
 }
 
 const Project = ({ img, title, description, stack, repository, website }: ProjectProps) => {
     return (
         <Popover>
             <PopoverTrigger>
-                <div className="text-left grid grid-cols-2 p-4 hover:border-green transition-default rounded-lg bg-zinc border-2 border-zinc-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer">
+                <div className="text-left grid md:grid-cols-2 p-4 hover:border-green transition-default rounded-lg bg-zinc border-2 border-zinc-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer">
                     <Image 
-                    className="hidden md:block object-cover rounded-lg md:w-[480px] md:h-[255px] w-[70px] h-[70px]"
+                    className="md:block object-cover rounded-lg md:w-[480px] md:h-[255px] w-full h-full"
                     src={img}
                     width={480} 
                     height={255} 
@@ -35,12 +35,16 @@ const Project = ({ img, title, description, stack, repository, website }: Projec
                         <p className="text-sm md:text-base">{description}</p>
                         <div className="grid grid-cols-2 gap-2 mt-4">
                             <Link className="flex gap-2 bg-zinc-800 p-2 rounded-lg hover:bg-green transition-default" href="/" target="_blank">
-                                <FaChrome size={24} />
-                                Site
+                                <div className="flex gap-2 mx-auto">
+                                    <FaChrome size={24} />
+                                    Site
+                                </div>
                             </Link>
                             <Link className="flex gap-2 bg-zinc-800 p-2 rounded-lg hover:bg-green transition-default" href="/" target="_blank">
-                                <FaGithub size={24} />
-                                Repositório
+                                <div className="flex gap-2 mx-auto">
+                                    <FaGithub size={24} />
+                                    Repositório
+                                </div>
                             </Link>
                         </div>
                         <div className="flex gap-2 mt-4 bg-blue mb-2">
