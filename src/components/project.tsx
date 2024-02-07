@@ -1,12 +1,5 @@
 import Image from "next/image";
-import { FaReact, FaGithub, FaChrome } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
-import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
-  } from "@/components/ui/popover";
+import { FaGithub, FaChrome } from "react-icons/fa";
   
 import Link from "next/link";
 
@@ -46,8 +39,8 @@ const Project = ({ img, title, description, stack, repository, website }: Projec
                     </Link>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-4 bg-blue mb-2 transition-default">
-                    {stack.map(tool => {
-                        return <p className="font-medium bg-zinc-800 hover:bg-green rounded-lg p-2 transition-default">{tool}</p>
+                    {stack.map((tool, i) => {
+                        return <p key={i} className="font-medium bg-zinc-800 hover:bg-green rounded-lg p-2 transition-default">{tool}</p>
                     })}
                 </div>
             </div>
