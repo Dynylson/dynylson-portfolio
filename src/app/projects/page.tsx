@@ -6,7 +6,7 @@ const ProjectsPage = () => {
             <div className="flex flex-col gap-4 mt-12 md:mt-24">
                 <Project repository="https://github.com/Dynylson/AVSFilms" website="https://avs-films.vercel.app/" img="/projects/avs-films.png" stack={["React.js", "Next.js", "TypeScript", "Chakra UI"]} title="AVSFilms" description="Fique a par de todo o universo cinematográfico, desde os filmes do momento até aos que estarão em breve nas telas. Tudo isso e mais num só lugar!" />
                 <Project repository="https://github.com/Dynylson/bikcraft" website="https://dynylson.github.io/bikcraft/" img="/projects/bikcraft.png" stack={["HTML", "CSS", "JavaScript"]} title="Bikcraft" description="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft." />
-                <Project repository="https://github.com/Dynylson" website="/" img="/californication_photo.jpg" stack={["React.js", "TypeScript", "Next.js"]} title="Californication" description="Californication is the seventh studio album by the American rock band Red Hot Chili Peppers, released on June 8, 1999, on Warner Bros. Records. It was produced by Rick Rubin. Along with Blood Sugar Sex Magik, Californication is one of the band’s best selling albums." />
+                <Project repository="https://github.com/Dynylson" website="/" img="/projects/avaliaovo.png" stack={["Laravel", "PHP", "Bootstrap"]} title="AvaliaOVO" description="AvaliaOVO é um sistema web para avaliação de ovos de galinho para o departamento de avicultura da UFAPE desenvolvido com Laravel que eu ajudei a criar através da bolsa de iniciação científica da Universidade Federal do Agreste de Pernambuco (UFAPE)" />
             </div>
         </main>
     )

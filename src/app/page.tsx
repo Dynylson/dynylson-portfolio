@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="mt-12 md:mt-24 rounded-lg border-2 border-zinc-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 md:p-6">
         <h2 className="text-green font-bold text-lg md:text-xl mb-2">Sobre mim</h2>
-        <p className="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae labore laborum doloremque debitis sequi. Fugit architecto excepturi nihil! Tempore molestias itaque maxime ratione nam dolores hic mollitia architecto facilis eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae labore laborum doloremque debitis sequi. Fugit architecto excepturi nihil! Tempore molestias itaque maxime ratione nam dolores hic mollitia architecto facilis eveniet.</p>
+        <p className="text-sm md:text-base">Com ampla experiência em programação, mergulhei no estudo e na prática de diversas linguagens, frameworks e metodologias de desenvolvimento ao longo dos anos. Atualmente, como desenvolvedor de software, aplico meu conhecimento para criar soluções ideais que abordam necessidades e resolvem problemas de forma eficaz. Estou determinado a levar minha carreira para o próximo nível, buscando constantemente desafios que me permitam crescer e me destacar no campo da tecnologia.</p>
       </div>
 
       {/* Projetos & Stack */}
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="flex flex-col gap-4">
             <CardProject title="AVSFilms" description="Fique a par de todo o universo cinematográfico, desde os filmes do momento até aos que estarão em breve nas telas. Tudo isso e mais num só lugar!" />
             <CardProject title="Bikcraft" description="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft." />
-            <CardProject title="DSCommerce" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+            <CardProject title="AvaliaOVO" description="AvaliaOVO é um sistema web para avaliação de ovos de galinho para o departamento de avicultura da UFAPE desenvolvido com Laravel que eu ajudei a criar através da bolsa de iniciação científica da Universidade Federal do Agreste de Pernambuco (UFAPE)" />
           </div>
         </div>
 
